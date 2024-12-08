@@ -1,0 +1,28 @@
+name: api_crud_dart
+description: "A new Flutter project."
+publish_to: 'none'  # Elimina esta línea si deseas publicar en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Backend dependencies for Dart (si estas usando las mismas dependencias)
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  bcrypt: ^1.1.3
+  dart_jsonwebtoken: ^2.0.0
+  dotenv: ^4.1.0
+  shelf_cors: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
